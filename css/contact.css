@@ -1,0 +1,330 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body{
+
+  background-image: url("/img/back.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  
+}
+
+.fas{
+            color:rgb(8, 125, 172);
+            font-size:2.5rem;
+            /* margin-top:5%; */
+            position:relative;
+            right:50px;
+            bottom:20px;
+          
+          }
+
+
+.navbar {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin:0 auto;
+  width: 100%;
+  margin: 0 auto;
+  margin-top:1%;
+  
+}
+.navbar a {
+  margin-bottom:6%;
+  font-size:1.2rem;
+  margin-left:5%;
+  color:rgba(255, 255, 255, 0.7);
+  font-weight: 700;
+  
+}
+.navbar a:hover {
+  
+  
+  border-bottom: 2px solid rgb(8, 125, 172);
+  transition: .5s;
+  
+  
+
+}
+.navbar a:nth-child(7):hover{
+  color:rgba(238, 234, 234, 0.993);
+  transition: .6s;
+  background-color:rgb(8, 125, 172);
+}
+
+
+.navbar a:nth-child(2) {
+  font-weight: 700;
+  font-size:1.2rem;
+}
+.navbar a:nth-child(3) {
+  font-size:1.2rem;
+  font-weight: 700;
+}
+.navbar a:nth-child(4) {
+  font-size:1.2rem;
+  font-weight: 700;
+}
+.navbar a:nth-child(5) {
+  font-size:1.2rem;
+  font-weight: 700;
+}
+.navbar a:nth-child(6) {
+      font-size:1.2rem;
+      font-weight: 700;
+    }
+.navbar a:nth-child(7) {
+  margin-top:.3%;
+  font-size:1.2rem;
+  border: 4px solid rgb(21, 112, 148);
+  padding: .7% 2%;
+  border-radius:10px;
+}
+
+a{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+}
+
+.contact-info{
+      width:30%;
+      margin:0 auto;
+      color:rgba(255, 255, 255, 0.623);
+      text-align: center;
+      margin-top:50px;
+      transition: all 4s ease-in-out;
+      
+}
+form{ 
+      transition: all 4s ease-in-out;
+      
+      display:flex;
+      flex-direction: column;
+      width:30%;
+      margin: 0 auto;
+      margin-top:5%;
+      
+}
+.contact-info h1{
+      font-size:2.5rem;
+      line-height: 50px;
+      
+}
+.contact-info h2{
+      font-size:1.5rem;
+}
+.form-control{
+      background-color:transparent;
+      border:none;
+      outline: none;
+      border-bottom: 2px solid rgba(83, 83, 83, 0.596);
+      margin-bottom:16px;
+      font-size:1.1rem;
+      font-weight:400;
+      color:rgba(1, 35, 70, 0.918)
+      
+}
+.form-control::placeholder{
+      
+      color:rgba(218, 214, 214, 0.808);
+      text-align: center;
+}
+
+input{
+      height:25px;
+}
+.submit{
+      background:cornflowerblue;
+      color:rgba(218, 214, 214, 0.808);
+      border-color:transparent;
+      letter-spacing: 1px;
+}
+.submit:hover{
+      background:rgba(218, 214, 214, 0.808);
+      color:cornflowerblue;
+      border-color:transparent;
+      letter-spacing: 3px;
+      transition: .4s;
+
+}
+.submit:active{
+     border:3px solid rgb(33, 50, 82);
+      
+}
+.fullcontain{
+      display:flex;
+}
+.form-message{
+      background-color:transparent;
+      border:none;
+      outline: none;
+      border-bottom: 2px solid rgba(83, 83, 83, 0.596);
+      margin-bottom:16px;
+      font-size:1.1rem;
+      font-weight:400;
+      color:rgba(2, 39, 77, 0.911);
+}
+.form-message::placeholder{
+      text-align: center;
+      color:rgba(235, 238, 240, 0.644)
+}
+
+.contact2{
+      text-align: right;
+      position:relative;
+      left:100px;
+      color:rgba(146, 142, 142, 0.705);
+}
+.contact2 h3{
+    font-size:1.9rem;
+}
+.contact2 p{
+      font-size:1.4rem;
+      color:rgb(8, 125, 172);
+      margin-bottom:14%;
+      font-weight: 600;
+  }
+  .contact-info{
+        position:relative;
+        bottom:70px;
+  }
+  #contact-form{
+      position:relative;
+      bottom:70px;
+}
